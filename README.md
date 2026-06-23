@@ -91,7 +91,3 @@ Input (784) → Dense(128) → ReLU → Dense(64) → ReLU → Dense(35) → Sof
 ## Error Analysis
 
 The model's residual errors cluster almost entirely around genuinely similar-looking character pairs — `B↔8`, `1↔I`, `2↔Z`, `V↔Y`, `R↔H`, `U↔P` — rather than random mistakes, suggesting it has learned meaningful shape features rather than memorizing noise. See [`report.md`](report.md) for the full write-up, including 8 analyzed misclassified examples.
-
-## License
-
-MIT
